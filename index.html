@@ -1,106 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Features
-  Team
-  Sign In
+    <link rel="stylesheet" href="reset.css">
 
-  All your files in one secure location, accessible anywhere.
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
 
-  Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.
+    <link rel="stylesheet" href="style.css">
 
-  Get Started
+    <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 
-  Access your files, anywhere
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
-  The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div>
+          <img src="images/logo.svg" alt="Logo">
+        </div>
+        <nav>
+          <a href="#">Features</a>
+          <a href="#">Team</a>
+          <a href="#">Sign In</a>
+        </nav>
+      </header>
+      <section id="hero">
+        <div class="heroImage">
+          <img src="images/illustration-intro.png" alt="Intro">
+        </div>
+        <h1>
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p>
+          Fylo stores all your most important files in one secure location. Access them wherever
+          you need, share and collaborate with friends family, and co-workers.
+        </p>
+        <button class="primaryButton">Get Started</button>
+      </section>
+      <section id="features">
+        <div class="featureCard">
+          <div class="featureCardImage">
+            <img src="images/icon-access-anywhere.svg" alt="Feature image 1">
+            <h3>Access your files, anywhere</h3>
+            <p> The ability to use a smartphone, tablet, or computer to access your account means your
+              files follow you everywhere.</p>
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureCardImage">
+            <img src="images/icon-security.svg" alt="Feature image 1">
+            <h3>Security you can trust</h3>
+            <p> 2-factor authentication and user-controlled encryption are just a couple of the security
+              features we allow to help secure your files.</p>
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureCardImage">
+            <img src="images/icon-collaboration.svg" alt="Feature image 1">
+            <h3>Real-time collaboration</h3>
+            <p>Securely share files and folders with friends, family and colleagues for live collaboration.
+              No email attachments required.</p>
+          </div>
+        </div>
+        <div class="featureCard">
+          <div class="featureCardImage">
+            <img src="images/icon-any-file.svg" alt="Feature image 1">
+            <h3>Store any type of file</h3>
+            <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+              file types to be securely stored and shared.</p>
+          </div>
+        </div>
 
-  Security you can trust
+      </section>
+    </div>
 
-  2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.
 
-  Real-time collaboration
+    <!--
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.
+    Stay productive, wherever you are
 
-  Store any type of file
+    Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+    storage needs.
 
-  Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.
+    Securely share files and folders with friends, family and colleagues for live collaboration. No email
+    attachments required.
 
-  Stay productive, wherever you are
+    See how Fylo works
 
-  Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-  storage needs.
+    Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+    become a well-oiled collaboration machine.
 
-  Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-  attachments required.
+    Satish Patel
+    Founder & CEO, Huddle
 
-  See how Fylo works
+    Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+    become a well-oiled collaboration machine.
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
+    Bruce McKenzie
+    Founder & CEO, Huddle
 
-  Satish Patel
-  Founder & CEO, Huddle
+    Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
+    become a well-oiled collaboration machine.
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
+    Iva Boyd
+    Founder & CEO, Huddle
 
-  Bruce McKenzie
-  Founder & CEO, Huddle
+    Get early access today
 
-  Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
-  become a well-oiled collaboration machine.
+    It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+    questions, our support team would be happy to help you.
 
-  Iva Boyd
-  Founder & CEO, Huddle
+    Get Started For Free
 
-  Get early access today
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+    dolore magna aliqua
 
-  It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  questions, our support team would be happy to help you.
+    +1-543-123-4567
+    example@fylo.com
 
-  Get Started For Free
+    About Us
+    Jobs
+    Press
+    Blog
 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
-
-  +1-543-123-4567
-  example@fylo.com
-
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    Contact Us
+    Terms
+    Privacy-->
+  </body>
 </html>
