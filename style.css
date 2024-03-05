@@ -9,6 +9,7 @@
 */
 
 :root {
+    --darkestBlue: hsl(219, 30%, 18%);
     --darkBlue : hsl(218, 28%, 13%);
     --white: hsl(0, 0%, 100%);
     --blue : hsl(198, 60%, 50%);
@@ -21,6 +22,10 @@ body {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     line-height: 1.5;
+}
+
+p{
+    opacity: 75%;
 }
 
 h1, h2 ,h3 ,h4, h5, h6, button, nav {
@@ -108,4 +113,59 @@ img{
     font-weight: 700;
     margin-top: 24px;
     margin-bottom: 12px;
+}
+
+#stayProdactive{
+    display: flex;
+    margin: 48px;
+    margin-top: 100px;
+    gap: 24px;
+    align-items: center;
+}
+
+.contentWrapper h2{
+    font-size: 24px;
+    font-weight: 700;
+    max-width: 15ch;
+}
+
+.contentWrapper a{
+    color: var(--cyan);
+    display: flex;
+    text-decoration: underline;
+    text-underline-position: under;
+    align-items: center;
+    gap: 6px;
+}
+
+/*Quotes Section*/
+#quotes{
+    display: flex;
+    gap: 36px;
+    margin: 24px;
+}
+
+#quotes .quoteCard{
+    background-color: var(--darkestBlue);
+    height: 200px;
+    width: 300px;
+    border-radius: 6px;
+    display: grid;
+    justify-content: space-between;
+    padding: 16px;
+
+}
+
+#quotes .profileWrapper {
+    display: flex;
+    gap: 12px;
+}
+
+#quotes .profileWrapper img{
+    border-radius: 999px;
+    height: 40px;
+}
+
+#quotes .profileContent{
+    display: block;
 }
